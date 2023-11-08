@@ -1,0 +1,43 @@
+countries:
+  analysis: [
+    'AT',
+    'BE',
+    'BG',
+    'CH',
+    'DE',
+    'ES',
+    'EE',
+    'FI',
+    'FR',
+    'GB-SCT',
+    'HR',
+    'HU',
+    'IS',
+    'IL',
+    'LT',
+    'LU',
+    'LV',
+    'NL',
+    'NO',
+    'PL',
+    'PT',
+    'SE',
+    'SI',
+    'SK'
+  ]
+  appendix: [
+    'NO',
+    'SE',
+    'FI',
+    'GB-SCT',
+    'NL',
+    'DE',
+    'AT',
+    'PL',
+    'LV',
+    'ES',
+    'HR',
+    'BG'
+  ]
+figure:
+  width: 170
