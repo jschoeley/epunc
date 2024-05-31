@@ -73,6 +73,10 @@ deathcounts_totals[
 
 deathcounts_totals <- as_tibble(deathcounts_totals)
 
+deathcounts_totals <- deathcounts_totals[deathcounts_totals$week != 53,]
+
+deathcounts_totals <- deathcounts_totals[deathcounts_totals$year > 1999,]
+
 # Split death counts into cross-validation series -----------------
 
 CutCVData <- function(start_covid, training_length, test_length, cv_data){

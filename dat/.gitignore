@@ -1,4 +1,5 @@
 # Ignore everything in this directory
 *
 # Except this file
+!10-data_cv.rds
 !.gitignore
